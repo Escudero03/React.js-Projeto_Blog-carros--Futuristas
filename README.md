@@ -3,10 +3,7 @@
 O Blog de Carros Futuristas é uma plataforma moderna dedicada à exibição e discussão dos veículos mais inovadores do mundo automotivo. Apresentando designs revolucionários, tecnologias de ponta e conceitos que definem o futuro da mobilidade, este blog serve como um showcase interativo para entusiastas e profissionais do setor.
 Visualize os carros mais extraordinários do futuro em um layout intuitivo e responsivo!
 
-🏎️ Carros do Futuro
-
-Em vez de ASCII art que pode aparecer incorretamente, vamos usar emojis de carros:
-🏎️ 🚗 🚙 🏍️ 🚓 🚕 🚘 🚖 🚔 🚛 🚚 🚒
+🏎️ Carros do Futuro    🏎️ 🚗 🚙 🏍️ 🚓 🚕 🚘 🚖 🚔 🚛 🚚 🚒
 
 ---
 ## 🚀 Funcionalidade
@@ -81,4 +78,8 @@ O projeto foi desenvolvido com foco em uma experiência de usuário fluida tanto
 
 👥 
 Agradeço sinceramente a oportunidade de compartilhar este projeto, que, embora simples, representa um marco significativo no meu aprendizado em desenvolvimento web. Reconheço que ainda tenho um longo caminho a percorrer e muito a aprender, mas estou comprometido em continuar me dedicando e aprimorando minhas habilidades. Este projeto foi desenvolvido com a base de referncia da Aula do Pro.felipe na Dio. ( Criando um Blog com Angular ) Decola Tech 2025
+
+Feito por Jose Escudero (um dev em aprendizado!).
+
+"DEV APRENDIZADO" - Porque cada linha de código é um passo adiante!
 
