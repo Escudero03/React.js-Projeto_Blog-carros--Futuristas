@@ -1,0 +1,65 @@
+.cars-list-container {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.cars-list-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+  position: relative;
+}
+
+.cars-list-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #0099ff;
+}
+
+.cars-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background-color: transparent;
+  border: 2px solid #0099ff;
+  color: #0099ff;
+  padding: 8px 20px;
+  margin: 0 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background-color: #0099ff;
+  color: white;
+}
+
+.cars-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-btn {
+    margin: 5px;
+  }
+  
+  .cars-filters {
+    padding: 0 20px;
+  }
+}

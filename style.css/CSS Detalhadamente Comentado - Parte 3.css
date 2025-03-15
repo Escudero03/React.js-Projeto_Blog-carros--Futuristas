@@ -1,0 +1,83 @@
+/* SEÇÃO MENU */
+.menu .box-container {
+    display: grid;                    /* Layout em grid */
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /* Colunas responsivas */
+    gap: 1.5rem;                     /* Espaço entre os items do grid */
+  }
+  
+  /* Cards individuais do menu */
+  .menu .box-container .box {
+    padding: 5rem;                   /* Espaço interno generoso */
+    text-align: center;              /* Centraliza conteúdo */
+    border: var(--border);           /* Borda padrão */
+    background: var(--bg-card);      /* Fundo escuro do card */
+  }
+  
+  /* Imagens dentro dos cards do menu */
+  .menu .box-container .box img {
+    height: 18rem;                   /* Altura fixa */
+    border-radius: 100%;             /* Torna a imagem circular */
+  }
+  
+  /* Títulos dos items do menu */
+  .menu .box-container .box h3 {
+    color: #fff;                     /* Texto branco */
+    font-size: 2rem;                 /* Tamanho do título */
+    padding: 1rem 0;                 /* Espaço vertical */
+  }
+  
+  /* Preços no menu */
+  .menu .box-container .box .price {
+    color: #fff;                     /* Texto branco */
+    font-size: 2.5rem;               /* Tamanho maior para destaque */
+    padding: 0.5rem;                 /* Espaço interno */
+  }
+  
+  /* Preço riscado (original) */
+  .menu .box-container .box .price span {
+    font-size: 1.5rem;               /* Tamanho menor */
+    text-decoration: line-through;    /* Linha atravessando o texto */
+    font-weight: lighter;             /* Fonte mais fina */
+  }
+  
+  /* Efeito hover nos cards do menu */
+  .menu .box-container .box:hover {
+    background: #fff;                 /* Fundo branco ao passar o mouse */
+  }
+  
+  /* Muda cor de todo conteúdo no hover */
+  .menu .box-container .box:hover > * {
+    color: black;                     /* Texto preto quando o fundo fica branco */
+  }
+  
+  /* SEÇÃO PRODUTOS/PROMOÇÕES */
+  .products .box-container {
+    display: grid;                    /* Layout em grid */
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /* Colunas responsivas */
+    gap: 1.5rem;                      /* Espaço entre cards */
+  }
+  
+  /* Cards individuais de produtos */
+  .products .box-container .box {
+    text-align: center;               /* Centraliza conteúdo */
+    border: var(--border);            /* Borda padrão */
+    padding: 2rem;                    /* Espaço interno */
+  }
+  
+  /* Ícones nos cards de produtos */
+  .products .box-container .box .icons a ion-icon {
+    height: 3rem;                     /* Altura do ícone */
+    width: 3rem;                      /* Largura do ícone */
+    line-height: 3rem;                /* Alinha verticalmente */
+    font-size: 1.7rem;                /* Tamanho do ícone */
+    border: var(--border);            /* Borda ao redor do ícone */
+    color: #fff;                      /* Cor branca */
+    margin: 0.3rem;                   /* Espaço entre ícones */
+  }
+  
+  /* Efeito hover nos ícones */
+  .products .box-container .box .icons a ion-icon:hover {
+    background: var(--main-color);    /* Fundo vermelho ao passar o mouse */
+  }
+  
+  [Continuarei com mais detalhes se você quiser ver o resto do código explicado, incluindo as seções de reviews e footer. Quer que eu continue?]

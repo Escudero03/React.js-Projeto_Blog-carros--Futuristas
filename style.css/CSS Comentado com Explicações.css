@@ -1,0 +1,197 @@
+/* Importação da fonte Roboto do Google Fonts com todas as variações de peso */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Definição das variáveis globais do CSS para cores e bordas */
+:root {
+  --main-color: #da190f;    /* Cor principal (vermelho) */
+  --bg: #13131a;            /* Cor de fundo principal (azul escuro) */
+  --bg-card: #0c0c14;       /* Cor de fundo dos cards (azul mais escuro) */
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);  /* Estilo padrão para bordas */
+}
+
+/* Reset global e configurações base para todos os elementos */
+* {
+  font-family: "Roboto", sans-serif;  /* Define a fonte padrão */
+  margin: 0;                          /* Remove margens */
+  padding: 0;                         /* Remove preenchimentos */
+  box-sizing: border-box;             /* Inclui padding e border no width total */
+  outline: none;                      /* Remove contornos */
+  border: none;                       /* Remove bordas */
+  text-decoration: none;              /* Remove decorações de texto */
+  text-transform: capitalize;         /* Capitaliza primeira letra */
+  transition: 0.2s linear;            /* Adiciona transição suave */
+}
+
+/* Configurações base do HTML */
+html {
+  font-size: 62.5%;                  /* Define 1rem = 10px (facilita cálculos) */
+  overflow-x: hidden;                /* Esconde barra de rolagem horizontal */
+  scroll-padding-top: 9rem;          /* Espaço para header fixo */
+  scroll-behavior: smooth;           /* Rolagem suave */
+}
+
+/* Estilização da barra de rolagem */
+html::-webkit-scrollbar {
+  width: 0.8rem;                     /* Largura da barra de rolagem */
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;           /* Fundo transparente do trilho */
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;                  /* Cor da barra de rolagem */
+  border-radius: 5rem;              /* Arredondamento da barra */
+}
+
+/* Configuração do corpo da página */
+body {
+  background: var(--bg);            /* Define cor de fundo usando variável */
+}
+
+/* Espaçamento padrão para seções */
+section {
+  padding: 2rem 7%;                 /* Padding interno nas seções */
+}
+
+/* Estilo dos títulos principais */
+.heading {
+  text-align: center;               /* Centraliza o texto */
+  color: #fff;                      /* Cor branca */
+  text-transform: uppercase;        /* Texto em maiúsculas */
+  padding-bottom: 3.5rem;           /* Espaço abaixo */
+  font-size: 4rem;                 /* Tamanho da fonte */
+}
+
+/* Estilo para spans dentro dos títulos */
+.heading span {
+  color: var(--main-color);        /* Cor vermelha definida na variável */
+  text-transform: uppercase;        /* Texto em maiúsculas */
+}
+
+/* Estilo do botão padrão */
+.btn {
+  margin-top: 1rem;                /* Margem superior */
+  display: inline-block;           /* Comportamento inline com propriedades de bloco */
+  padding: 0.9rem 3rem;           /* Preenchimento interno */
+  font-size: 1.7rem;              /* Tamanho da fonte */
+  color: #fff;                    /* Cor do texto */
+  background: var(--main-color);  /* Cor de fundo */
+  cursor: pointer;                /* Cursor de clique */
+}
+
+/* Efeito hover do botão */
+.btn:hover {
+  letter-spacing: 0.4rem;         /* Aumenta espaçamento entre letras no hover */
+}
+
+/* HEADER (CABEÇALHO) */
+.header {
+  background: var(--bg);          /* Cor de fundo */
+  display: flex;                  /* Layout flexível */
+  align-items: center;            /* Alinhamento vertical central */
+  justify-content: space-between; /* Espaçamento entre elementos */
+  padding: 1.5rem 7%;            /* Preenchimento interno */
+  position: fixed;               /* Fixa o cabeçalho */
+  top: 0;                        /* Alinha ao topo */
+  left: 0;                       /* Alinha à esquerda */
+  right: 0;                      /* Alinha à direita */
+  z-index: 1000;                /* Camada de empilhamento */
+}
+
+/* Estilo do logo no header */
+.header .logo img {
+  height: 6.5rem;               /* Altura da imagem */
+  border-radius: 100%;          /* Torna a imagem circular */
+}
+
+/* Links da navegação */
+.header .navbar a {
+  margin: 0 1rem;              /* Margem horizontal */
+  font-size: 1.6rem;           /* Tamanho da fonte */
+  color: #fff;                 /* Cor do texto */
+}
+
+/* Efeito hover nos links */
+.header .navbar a:hover {
+  color: var(--main-color);    /* Muda cor no hover */
+  border-bottom: 0rem solid var(--main-color); /* Borda inferior */
+  padding-bottom: 0.5rem;      /* Espaço abaixo do texto */
+}
+
+/* Container dos ícones no header */
+.header .icons {
+  display: flex;               /* Layout flexível */
+  align-self: center;         /* Alinhamento vertical */
+}
+
+/* Cada ícone individual */
+.header .icons div {
+  margin-left: 2rem;          /* Margem à esquerda */
+}
+
+/* Estilo dos ícones */
+.header .icons div ion-icon {
+  color: #fff;                /* Cor do ícone */
+  cursor: pointer;            /* Cursor de clique */
+  font-size: 2.5rem;         /* Tamanho do ícone */
+}
+
+/* Efeito hover nos ícones */
+.header .icons div ion-icon:hover {
+  color: var(--main-color);   /* Muda cor no hover */
+}
+
+/* Botão do menu mobile (inicialmente oculto) */
+#menu-btn {
+  display: none;              /* Oculta o botão */
+}
+
+/* SEÇÃO HOME */
+.home {
+  position: relative;         /* Posicionamento relativo */
+  min-height: 85vh;          /* Altura mínima */
+  display: flex;             /* Layout flexível */
+  align-items: center;       /* Alinhamento vertical */
+  background: url(./images/home.jpg) no-repeat; /* Imagem de fundo */
+  background-size: cover;    /* Cobrir todo o espaço */
+  background-position: center; /* Centralizar imagem */
+  border-bottom: var(--border); /* Borda inferior */
+}
+
+/* Overlay escuro na imagem de fundo */
+.home::before {
+  content: "";               /* Conteúdo vazio */
+  position: absolute;        /* Posicionamento absoluto */
+  top: 0;                   /* Alinha ao topo */
+  left: 0;                  /* Alinha à esquerda */
+  width: 100%;              /* Largura total */
+  height: 100%;             /* Altura total */
+  background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  z-index: 1;               /* Camada de empilhamento */
+}
+
+/* Conteúdo da seção home */
+.home .content {
+  max-width: 60rem;         /* Largura máxima */
+  position: relative;       /* Posicionamento relativo */
+  z-index: 2;              /* Acima do overlay */
+}
+
+/* Título principal da home */
+.home .content h3 {
+  font-size: 6rem;         /* Tamanho da fonte */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  color: #fff;             /* Cor do texto */
+}
+
+/* Parágrafo da home */
+.home .content p {
+  font-size: 2rem;         /* Tamanho da fonte */
+  font-weight: lighter;    /* Peso da fonte */
+  line-height: 1.8;        /* Altura da linha */
+  padding: 1rem 0;         /* Preenchimento vertical */
+  color: #fff;            /* Cor do texto */
+}
+
+[Continua nos comentários devido ao limite de caracteres...]

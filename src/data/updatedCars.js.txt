@@ -1,0 +1,330 @@
+export const cars = [
+  {
+    id: 1,
+    name: 'McLaren Solus GT',
+    image: '/images/2023_McLaren_Solus_GT.jpg',
+    description: 'Hipercarro exclusivo inspirado no mundo virtual, com aerodinâmica extrema e desempenho de pista incomparável.',
+    technology: 'Combustão Avançada',
+    autonomy: 'N/A (Carro de Pista)',
+    maxSpeed: 340,
+    specs: {
+      motor: 'V10 5.2L naturalmente aspirado',
+      potencia: '840 cv',
+      torque: '66 kgfm',
+      aceleracao: '2.5s (0-100 km/h)',
+      velocidadeMax: '340 km/h',
+      peso: '1,000 kg'
+    },
+    price: 'Exclusivo para 25 clientes',
+    news: {
+      title: 'McLaren Solus GT: do mundo virtual para as pistas reais',
+      shortDescription: 'Hipercarro inspirado no jogo Gran Turismo chega à produção limitada com aerodinâmica extrema e cockpit de F1.',
+      fullDescription: 'A McLaren transformou em realidade o conceito digital que apareceu pela primeira vez no jogo Gran Turismo. O Solus GT é um hipercarro de pista com apenas 25 unidades, equipado com motor V10 naturalmente aspirado de 840 cv, peso inferior a 1.000 kg e aerodinâmica capaz de gerar mais de 1.200 kg de downforce.',
+      date: '15 de março de 2025',
+      author: 'Rafael Moreira',
+      comments: 32,
+      category: 'Supercarros'
+    }
+  },
+  {
+    id: 2,
+    name: 'Lamborghini Revuelto',
+    image: '/images/2024-lamborghini-revuelto-review.jpg',
+    description: 'O primeiro superesportivo híbrido plug-in da Lamborghini, combinando motor V12 com três motores elétricos.',
+    technology: 'Híbrido Plug-in',
+    autonomy: 10,
+    maxSpeed: 350,
+    specs: {
+      motor: 'V12 6.5L + 3 motores elétricos',
+      potencia: '1,015 cv (combinado)',
+      torque: '114 kgfm',
+      aceleracao: '2.5s (0-100 km/h)',
+      velocidadeMax: '350 km/h',
+      autonomiaEletrica: '10 km'
+    },
+    price: 'R$ 8.800.000',
+    news: {
+      title: 'Lamborghini Revuelto: a revolução híbrida do touro italiano',
+      shortDescription: 'Primeiro supercarro híbrido plug-in da marca italiana combina V12 com três motores elétricos para 1.015 cv de potência.',
+      fullDescription: 'O Lamborghini Revuelto marca uma nova era para a fabricante italiana, sendo o primeiro superesportivo híbrido plug-in da marca. O modelo combina um motor V12 6.5L naturalmente aspirado com três motores elétricos, gerando potência combinada de 1.015 cv.',
+      date: '14 de março de 2025',
+      author: 'Carla Monteiro',
+      comments: 28,
+      category: 'Lançamentos'
+    }
+  },
+  {
+    id: 3,
+    name: 'Lamborghini Revuelto (Lateral)',
+    image: '/images/Lamborghini-Revuelto-v2-1024x576.jpg',
+    description: 'Vista lateral do Revuelto, destacando as linhas agressivas e a herança de design da Lamborghini com visual futurista.',
+    technology: 'Híbrido Plug-in',
+    autonomy: 10,
+    maxSpeed: 350,
+    specs: {
+      motor: 'V12 6.5L + 3 motores elétricos',
+      potencia: '1,015 cv (combinado)',
+      torque: '114 kgfm',
+      aceleracao: '2.5s (0-100 km/h)',
+      velocidadeMax: '350 km/h',
+      autonomiaEletrica: '10 km'
+    },
+    price: 'R$ 8.800.000',
+    news: {
+      title: 'Design do Lamborghini Revuelto: evolução do DNA da marca',
+      shortDescription: 'Novo supercarro mantém essência estética da marca enquanto incorpora elementos futuristas e aerodinâmicos.',
+      fullDescription: 'O design do Lamborghini Revuelto representa uma evolução do DNA estético da marca, combinando elementos clássicos da Lamborghini com soluções futuristas. As linhas agressivas e angulares são complementadas por entradas de ar funcionais e elementos aerodinâmicos ativos.',
+      date: '10 de março de 2025',
+      author: 'Bruno Ferreira',
+      comments: 19,
+      category: 'Design'
+    }
+  },
+  {
+    id: 4,
+    name: 'BMW i Vision Circular',
+    image: '/images/BMW_i_Vision_Circular_Concept_IAA_2021_1X7A0294.jpg',
+    description: 'Conceito sustentável da BMW feito com materiais 100% reciclados e totalmente recicláveis, representando o futuro da mobilidade circular.',
+    technology: 'Elétrico Sustentável',
+    autonomy: 400,
+    maxSpeed: 200,
+    specs: {
+      motor: 'Elétrico (Dual Motor)',
+      potencia: '300 cv (estimado)',
+      torque: '50 kgfm (estimado)',
+      aceleracao: '6.0s (0-100 km/h) (estimado)',
+      autonomia: '400 km (estimado)',
+      materialSustentavel: '100% reciclável'
+    },
+    price: 'Conceito não disponível para venda',
+    news: {
+      title: 'BMW i Vision Circular: o futuro da economia circular automotiva',
+      shortDescription: 'Conceito da BMW apresenta visão para 2040 com veículo 100% reciclável e fabricado com materiais reaproveitados.',
+      fullDescription: 'O BMW i Vision Circular representa a visão da montadora alemã para 2040, demonstrando como a indústria automotiva pode abraçar os princípios da economia circular. O veículo é construído inteiramente com materiais reciclados e é 100% reciclável.',
+      date: '08 de março de 2025',
+      author: 'Mariana Costa',
+      comments: 24,
+      category: 'Sustentabilidade'
+    }
+  },
+  {
+    id: 5,
+    name: 'Hyundai Prophecy',
+    image: '/images/hyundai-prophecy-concept-seen-at-the-2020-beijing-auto-show-2D0T005.jpg',
+    description: 'Conceito elétrico da Hyundai com design aerodinâmico tipo "pontoon" e interior minimalista controlado por joysticks.',
+    technology: 'Elétrico',
+    autonomy: 550,
+    maxSpeed: 260,
+    specs: {
+      motor: 'Elétrico (Dual Motor)',
+      potencia: '350 cv (estimado)',
+      torque: '60 kgfm (estimado)',
+      aceleracao: '5.0s (0-100 km/h) (estimado)',
+      autonomia: '550 km (estimado)',
+      controle: 'Joysticks (sem volante)'
+    },
+    price: 'Conceito não disponível para venda',
+    news: {
+      title: 'Hyundai Prophecy: o sedã elétrico que dispensa o volante',
+      shortDescription: 'Conceito futurista da Hyundai apresenta controle por joysticks e design "pontoon" altamente aerodinâmico.',
+      fullDescription: 'O Hyundai Prophecy representa uma visão ousada do futuro da mobilidade elétrica. O conceito apresenta um design chamado "pontoon", com formas fluidas e aerodinâmicas que lembram carros clássicos, mas com interpretação moderna e futurista.',
+      date: '05 de março de 2025',
+      author: 'Paulo Mendes',
+      comments: 31,
+      category: 'Inovação'
+    }
+  },
+  {
+    id: 6,
+    name: 'McLaren Solus GT (Ângulo Frontal)',
+    image: '/images/2023_McLaren_Solus_GT_4.jpg',
+    description: 'Vista frontal do McLaren Solus GT, destacando o cockpit fechado inspirado na Fórmula 1 e a aerodinâmica extrema.',
+    technology: 'Combustão Avançada',
+    autonomy: 'N/A (Carro de Pista)',
+    maxSpeed: 340,
+    specs: {
+      motor: 'V10 5.2L naturalmente aspirado',
+      potencia: '840 cv',
+      torque: '66 kgfm',
+      aceleracao: '2.5s (0-100 km/h)',
+      velocidadeMax: '340 km/h',
+      aerodinamica: '1.200 kg de downforce'
+    },
+    price: 'Exclusivo para 25 clientes',
+    news: {
+      title: 'Tecnologia de F1 no McLaren Solus GT: explorando a aerodinâmica extrema',
+      shortDescription: 'Conceito de aerodinâmica do hipercarro da McLaren utiliza soluções diretas da Fórmula 1 para desempenho máximo.',
+      fullDescription: 'O McLaren Solus GT incorpora tecnologias aerodinâmicas diretamente derivadas da Fórmula 1. O veículo apresenta um difusor massivo, asa traseira fixa e um sistema de entrada de ar integrado ao cockpit fechado, inspirado nos carros de F1.',
+      date: '12 de março de 2025',
+      author: 'Fernando Alves',
+      comments: 27,
+      category: 'Tecnologia'
+    }
+  },
+  {
+    id: 7,
+    name: 'Mercedes Benz VISION EQS',
+    image: '/images/Moderno Mercedes Benz VISION EQS.jpg',
+    description: 'Conceito de luxo elétrico da Mercedes-Benz com design inspirado em iates de luxo e autonomia de condução avançada.',
+    technology: 'Elétrico Luxuoso',
+    autonomy: 700,
+    maxSpeed: 250,
+    specs: {
+      motor: 'Elétrico (Dual Motor)',
+      potencia: '470 cv',
+      torque: '77 kgfm',
+      aceleracao: '4.5s (0-100 km/h)',
+      autonomia: '700 km',
+      recarga: '80% em 20 min (350 kW)'
+    },
+    price: 'Baseado no EQS: a partir de R$ 850.000',
+    news: {
+      title: 'Mercedes-Benz VISION EQS: redefinindo o luxo na era elétrica',
+      shortDescription: 'Conceito da Mercedes apresenta uma nova linguagem de design para sedãs de luxo elétricos com foco em sustentabilidade.',
+      fullDescription: 'O Mercedes-Benz VISION EQS representa o futuro do luxo sustentável automotivo. O conceito introduz a plataforma EVA2 (Electric Vehicle Architecture), especialmente desenvolvida para veículos elétricos premium.',
+      date: '03 de março de 2025',
+      author: 'Luisa Mendonça',
+      comments: 18,
+      category: 'Luxo'
+    }
+  },
+  {
+    id: 8,
+    name: 'Polestar Precept',
+    image: '/images/polestar_precept_1.jpg',
+    description: 'Conceito da Polestar que mostra o compromisso da marca com sustentabilidade e tecnologia, transformado no modelo de produção Polestar 5.',
+    technology: 'Elétrico Sustentável',
+    autonomy: 600,
+    maxSpeed: 250,
+    specs: {
+      motor: 'Elétrico (Dual Motor)',
+      potencia: '600 cv (estimado)',
+      torque: '90 kgfm (estimado)',
+      aceleracao: '3.5s (0-100 km/h) (estimado)',
+      autonomia: '600 km (estimado)',
+      materialSustentavel: 'Linho, garrafas PET recicladas, redes de pesca recuperadas'
+    },
+    price: 'Baseado no Polestar 5: a partir de R$ 700.000 (estimado)',
+    news: {
+      title: 'Polestar Precept: quando sustentabilidade encontra performance',
+      shortDescription: 'Conceito que inspirou o Polestar 5 mostra como materiais sustentáveis podem criar um veículo de luxo sem comprometer desempenho.',
+      fullDescription: 'O Polestar Precept, que se tornará o Polestar 5 de produção, representa a filosofia da marca sueca de combinar sustentabilidade e performance. O veículo utiliza materiais inovadores como compósitos de linho natural para painéis internos.',
+      date: '02 de março de 2025',
+      author: 'Gabriel Oliveira',
+      comments: 21,
+      category: 'Tecnologia'
+    }
+  },
+  {
+    id: 9,
+    name: 'Tesla Cybertruck',
+    image: '/images/Tesla Cybertruck.jpg',
+    description: 'Picape elétrica futurista da Tesla com design angular e exoesqueleto de aço inoxidável ultrarresistente.',
+    technology: 'Elétrico',
+    autonomy: 800,
+    maxSpeed: 210,
+    specs: {
+      motor: 'Elétrico Tri-motor',
+      potencia: '845 cv',
+      torque: '132 kgfm',
+      aceleracao: '2.9s (0-100 km/h)',
+      autonomia: '800 km',
+      capacidadeCarga: '1.500 kg'
+    },
+    price: 'A partir de R$ 650.000 (estimado para o Brasil)',
+    news: {
+      title: 'Tesla Cybertruck: a picape que redefiniu o design automotivo',
+      shortDescription: 'Com formas angulares e exoesqueleto de aço inoxidável, o Cybertruck desafia convenções e polariza opiniões.',
+      fullDescription: 'O Tesla Cybertruck continua sendo um dos veículos mais comentados e divisivos da indústria automotiva. Com seu design angular inspirado em filmes de ficção científica cyberpunk, a picape elétrica da Tesla utiliza um exoesqueleto de aço inoxidável de ultra-alta resistência.',
+      date: '01 de março de 2025',
+      author: 'Roberto Santos',
+      comments: 42,
+      category: 'Inovação'
+    }
+  }
+];
+
+export const newsArticles = [
+  {
+    id: 1,
+    title: 'McLaren Solus GT estreia no Brasil com apenas 2 unidades disponíveis',
+    shortDescription: 'Hipercarro derivado do mundo virtual chega ao país com preço estimado acima de R$ 15 milhões.',
+    fullDescription: 'A McLaren anunciou oficialmente a chegada do Solus GT ao Brasil, com apenas duas unidades disponíveis para o mercado nacional. O hipercarro, que nasceu como um conceito digital no jogo Gran Turismo Sport e foi transformado em realidade, terá preço estimado acima de R$ 15 milhões.',
+    image: '/images/2023_McLaren_Solus_GT.jpg',
+    date: '14 de março de 2025',
+    author: 'Rafael Moreira',
+    comments: 32,
+    category: 'Lançamentos'
+  },
+  {
+    id: 2,
+    title: 'Lamborghini anuncia plano de eletrificação completa até 2030',
+    shortDescription: 'Marca italiana apresenta roteiro para eletrificar toda sua linha, começando com o sucesso do Revuelto.',
+    fullDescription: 'A Lamborghini divulgou seu plano estratégico de eletrificação total até 2030, acelerando a transição para veículos híbridos e elétricos. O primeiro passo foi dado com o Revuelto, primeiro supercarro híbrido plug-in da marca.',
+    image: '/images/Lamborghini-Revuelto-v2-1024x576.jpg',
+    date: '12 de março de 2025',
+    author: 'Júlia Peixoto',
+    comments: 18,
+    category: 'Indústria'
+  },
+  {
+    id: 3,
+    title: 'BMW i Vision Circular se aproxima da produção com novo protótipo',
+    shortDescription: 'Conceito sustentável da montadora alemã evolui e ganha versão mais próxima da produção em série.',
+    fullDescription: 'A BMW apresentou uma versão evoluída do i Vision Circular durante evento de sustentabilidade em Munique. O novo protótipo mantém a filosofia de economia circular, mas com soluções técnicas mais viáveis para produção em série.',
+    image: '/images/BMW_i_Vision_Circular_Concept_IAA_2021_1X7A0294.jpg',
+    date: '08 de março de 2025',
+    author: 'Eduardo Martins',
+    comments: 7,
+    category: 'Sustentabilidade'
+  },
+  {
+    id: 4,
+    title: 'Tesla Cybertruck: primeiras unidades chegam ao Brasil em importação independente',
+    shortDescription: 'Importadores homologam versão da picape elétrica no país com preços acima de R$ 1,5 milhão.',
+    fullDescription: 'As primeiras unidades do Tesla Cybertruck começam a chegar ao Brasil através de importações independentes. Sem presença oficial da Tesla no país, importadores especializados conseguiram homologar o veículo junto aos órgãos reguladores brasileiros.',
+    image: '/images/Tesla Cybertruck.jpg',
+    date: '05 de março de 2025',
+    author: 'Lucas Ferreira',
+    comments: 15,
+    category: 'Mercado'
+  }
+];
+
+export const topSellingCars = [
+  {
+    id: 1,
+    name: 'Tesla Model Y',
+    sales: 4980,
+    image: '/images/Tesla Cybertruck.jpg',
+    month: 'março'
+  },
+  {
+    id: 2,
+    name: 'Lamborghini Revuelto',
+    sales: 3450,
+    image: '/images/2024-lamborghini-revuelto-review.jpg',
+    month: 'março'
+  },
+  {
+    id: 3,
+    name: 'BMW i Vision',
+    sales: 2970,
+    image: '/images/BMW_i_Vision_Circular_Concept_IAA_2021_1X7A0294.jpg',
+    month: 'março'
+  },
+  {
+    id: 4,
+    name: 'Mercedes VISION EQS',
+    sales: 2780,
+    image: '/images/Moderno Mercedes Benz VISION EQS.jpg',
+    month: 'março'
+  },
+  {
+    id: 5,
+    name: 'Polestar Precept',
+    sales: 2510,
+    image: '/images/polestar_precept_1.jpg',
+    month: 'março'
+  }
+];

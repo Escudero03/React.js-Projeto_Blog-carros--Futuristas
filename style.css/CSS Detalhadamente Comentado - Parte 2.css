@@ -1,0 +1,134 @@
+/* LOGO E NAVEGAÇÃO */
+.header .logo img {
+    height: 6.5rem;               /* Define altura fixa para o logo */
+    border-radius: 100%;          /* Torna a imagem completamente circular */
+  }
+  
+  /* Estilo dos links na barra de navegação */
+  .header .navbar a {
+    margin: 0 1rem;              /* Espaço horizontal entre os links */
+    font-size: 1.6rem;           /* Tamanho do texto dos links */
+    color: #fff;                 /* Cor branca para os links */
+  }
+  
+  /* Efeito quando o mouse passa sobre os links */
+  .header .navbar a:hover {
+    color: var(--main-color);    /* Muda para a cor principal (vermelho) */
+    border-bottom: 0rem solid var(--main-color); /* Prepara para possível animação de borda */
+    padding-bottom: 0.5rem;      /* Cria espaço abaixo para a borda */
+  }
+  
+  /* Container dos ícones no header */
+  .header .icons {
+    display: flex;               /* Organiza ícones em linha */
+    align-self: center;         /* Centraliza verticalmente */
+  }
+  
+  /* Espaçamento entre ícones */
+  .header .icons div {
+    margin-left: 2rem;          /* Espaço à esquerda de cada ícone */
+  }
+  
+  /* Estilização dos ícones individuais */
+  .header .icons div ion-icon {
+    color: #fff;                /* Cor branca para os ícones */
+    cursor: pointer;            /* Cursor de mão ao passar o mouse */
+    font-size: 2.5rem;         /* Tamanho dos ícones */
+  }
+  
+  /* Efeito hover nos ícones */
+  .header .icons div ion-icon:hover {
+    color: var(--main-color);   /* Muda para vermelho ao passar o mouse */
+  }
+  
+  /* Botão do menu mobile */
+  #menu-btn {
+    display: none;              /* Esconde por padrão - aparecerá apenas em telas menores */
+  }
+  
+  /* SEÇÃO HOME - Banner Principal */
+  .home {
+    position: relative;         /* Permite posicionamento absoluto dos elementos filhos */
+    min-height: 85vh;          /* Altura mínima de 85% da altura da viewport */
+    display: flex;             /* Usa flexbox para centralizar conteúdo */
+    align-items: center;       /* Centraliza verticalmente */
+    background: url(./images/home.jpg) no-repeat; /* Imagem de fundo */
+    background-size: cover;    /* Imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    border-bottom: var(--border); /* Borda inferior padrão */
+  }
+  
+  /* Overlay escuro sobre a imagem de fundo */
+  .home::before {
+    content: "";               /* Necessário para pseudo-elementos */
+    position: absolute;        /* Posiciona em relação ao elemento pai */
+    top: 0; left: 0;          /* Alinha com o topo e esquerda */
+    width: 100%;              /* Ocupa toda a largura */
+    height: 100%;             /* Ocupa toda a altura */
+    background: rgba(0, 0, 0, 0.5); /* Preto semi-transparente */
+    z-index: 1;               /* Coloca acima do fundo, mas abaixo do conteúdo */
+  }
+  
+  /* Container do conteúdo principal */
+  .home .content {
+    max-width: 60rem;         /* Limita a largura máxima do texto */
+    position: relative;       /* Permite ajuste de posição */
+    z-index: 2;              /* Coloca acima do overlay escuro */
+  }
+  
+  /* Título principal da home */
+  .home .content h3 {
+    font-size: 6rem;         /* Tamanho grande para destaque */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    color: #fff;             /* Cor branca */
+  }
+  
+  /* Texto descritivo da home */
+  .home .content p {
+    font-size: 2rem;         /* Tamanho legível do texto */
+    font-weight: lighter;    /* Fonte mais fina */
+    line-height: 1.8;        /* Espaçamento entre linhas para melhor leitura */
+    padding: 1rem 0;         /* Espaço acima e abaixo */
+    color: #fff;            /* Cor branca */
+  }
+  
+  /* SEÇÃO SOBRE (ABOUT) */
+  .about .row {
+    display: flex;           /* Layout flexbox */
+    align-items: center;     /* Centraliza itens verticalmente */
+    background: var(--bg-card); /* Fundo mais escuro para o card */
+    flex-wrap: wrap;         /* Permite quebra em telas menores */
+    border: var(--border);   /* Borda padrão */
+  }
+  
+  /* Container da imagem na seção sobre */
+  .about .row .image {
+    flex: 1 1 45rem;        /* Flex-grow, flex-shrink e flex-basis */
+  }
+  
+  /* Imagem dentro da seção sobre */
+  .about .row .image img {
+    width: 100%;            /* Ocupa toda a largura disponível */
+  }
+  
+  /* Container do conteúdo na seção sobre */
+  .about .row .content {
+    flex: 1 1 45rem;        /* Mesma flexibilidade que a imagem */
+    padding: 2rem;          /* Espaço interno */
+  }
+  
+  /* Título da seção sobre */
+  .about .row .content h3 {
+    font-size: 3rem;        /* Tamanho do título */
+    color: #fff;            /* Cor branca */
+  }
+  
+  /* Texto da seção sobre */
+  .about .row .content p {
+    font-size: 1.6rem;      /* Tamanho do texto */
+    color: #ccc;            /* Cinza claro para melhor leitura */
+    padding: 1rem 0;        /* Espaço vertical */
+    line-height: 1.8;       /* Altura da linha para legibilidade */
+  }
+  
+  [Continua na próxima parte...]

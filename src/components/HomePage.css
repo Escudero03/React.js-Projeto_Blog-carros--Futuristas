@@ -1,0 +1,387 @@
+.homepage {
+    padding: 20px 0 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main-content {
+    width: 66%;
+    padding-right: 30px;
+  }
+  
+  .sidebar {
+    width: 34%;
+  }
+  
+  /* Estilos para os artigos em destaque */
+  .featured-articles {
+    margin-bottom: 30px;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-main {
+    margin-bottom: 20px;
+  }
+  
+  .article-image-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .article-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-category {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #0078d7;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    z-index: 1;
+  }
+  
+  .article-content {
+    padding: 15px;
+  }
+  
+  .article-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  
+  .article-main .article-title {
+    font-size: 24px;
+  }
+  
+  .article-description {
+    margin: 0 0 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .article-meta {
+    display: flex;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .article-date {
+    margin-right: 15px;
+  }
+  
+  .article-date i, .article-comments i {
+    margin-right: 3px;
+  }
+  
+  /* Estilos para seções */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section-header {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #333;
+  }
+  
+  .section-more {
+    color: #0078d7;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para destaques */
+  .highlights-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  .highlight-card {
+    width: calc(50% - 20px);
+    margin: 0 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight-img-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  
+  .highlight-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .highlight-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #0078d7;
+    color: white;
+    padding: 3px 6px;
+    font-size: 11px;
+    border-radius: 3px;
+    z-index: 1;
+  }
+  
+  .highlight-content {
+    padding: 12px;
+  }
+  
+  .highlight-title {
+    margin: 0 0 8px;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  
+  .highlight-description {
+    margin: 0 0 8px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  
+  .highlight-meta {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  /* Estilos para carros mais vendidos */
+  .top-selling-cars {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-car-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .top-car-item:last-child {
+    border-bottom: none;
+  }
+  
+  .top-car-rank {
+    width: 24px;
+    height: 24px;
+    background-color: #0078d7;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 12px;
+  }
+  
+  .top-car-img-container {
+    width: 60px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .top-car-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .top-car-info {
+    flex-grow: 1;
+  }
+  
+  .top-car-name {
+    margin: 0 0 3px;
+    font-size: 15px;
+  }
+  
+  .top-car-sales {
+    margin: 0;
+    color: #666;
+    font-size: 12px;
+  }
+  
+  /* Estilos para barra lateral */
+  .sidebar-widget {
+    margin-bottom: 25px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    background: #333;
+    color: white;
+    margin: 0;
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  
+  .recommended-posts {
+    padding: 12px;
+  }
+  
+  .recommended-post {
+    display: flex;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .recommended-post:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  
+  .recommended-post-img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .recommended-post-title {
+    margin: 0 0 5px;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  
+  .recommended-post-date {
+    display: block;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  /* Estilos para publicidade */
+  .ad-container {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .ad-label {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 6px;
+  }
+  
+  .ad-banner {
+    height: 250px;
+    background-color: #eee;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Estilos para newsletter */
+  .newsletter-form {
+    padding: 15px;
+  }
+  
+  .newsletter-text {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .newsletter-input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .newsletter-button {
+    width: 100%;
+    padding: 8px 0;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #006cbe;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 992px) {
+    .main-content, .sidebar {
+      width: 100%;
+      padding-right: 0;
+    }
+    
+    .main-content {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .highlight-card {
+      width: 100%;
+    }
+  }

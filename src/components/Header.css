@@ -1,0 +1,171 @@
+.main-header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-top {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo-car {
+    color: #333;
+  }
+  
+  .logo-blog {
+    color: #0078d7;
+  }
+  
+  .logo-br {
+    color: #333;
+  }
+  
+  .search-container {
+    position: absolute;
+    right: 15px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .search-button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .main-nav {
+    background-color: #333;
+    color: white;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #444;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-link {
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #0078d7;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .menu-toggle {
+      display: block;
+    }
+    
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .nav-links.active {
+      display: flex;
+    }
+    
+    .container {
+      flex-wrap: wrap;
+    }
+    
+    .social-links {
+      margin-left: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo-container {
+      text-align: left;
+    }
+    
+    .search-container {
+      position: relative;
+      right: auto;
+      margin-top: 10px;
+      width: 100%;
+    }
+    
+    .search-form {
+      width: 100%;
+    }
+    
+    .search-input {
+      width: 100%;
+    }
+  }
