@@ -1,4 +1,4 @@
-📋 Descrição do Projeto
+## 📋 Descrição do Projeto
 
 O Blog de Carros Futuristas é uma plataforma moderna dedicada à exibição e discussão dos veículos mais inovadores do mundo automotivo. Apresentando designs revolucionários, tecnologias de ponta e conceitos que definem o futuro da mobilidade, este blog serve como um showcase interativo para entusiastas e profissionais do setor.
 Visualize os carros mais extraordinários do futuro em um layout intuitivo e responsivo!
@@ -9,7 +9,7 @@ Em vez de ASCII art que pode aparecer incorretamente, vamos usar emojis de carro
 🏎️ 🚗 🚙 🏍️ 🚓 🚕 🚘 🚖 🚔 🚛 🚚 🚒
 
 ---
-🚀 Funcionalidade
+## 🚀 Funcionalidade
 
 📰 Notícias Recentes: Atualizações sobre os últimos lançamentos e inovações
 📊 Ranking de Vendas: Visualização dos modelos futuristas mais vendidos
@@ -18,13 +18,25 @@ Em vez de ASCII art que pode aparecer incorretamente, vamos usar emojis de carro
 📱 Layout Responsivo: Experiência otimizada em dispositivos desktop e móveis
 
 ---
-@@🛠️ Tecnologias Utilizadas
-TecnologiaUso no ProjetoReact.jsBiblioteca para construção de interfaces de usuárioNode.jsAmbiente de execução JavaScriptCSS3Estilização avançada com CSS puroGit/GitHubControle de versão e hospedagem do códigonpmGerenciador de pacotesJavaScript ES6+Linguagem de programação principalGitHub PagesHospedagem do site estático
+## @@🛠️ Tecnologias Utilizadas
+TecnologiaUso no Projeto
 
+⚛️ React.jsBiblioteca para construção de interfaces de usuário
 
-##🚧 Desafios Enfrentados
+📦 Node.jsAmbiente de execução JavaScript
 
-Durante o desenvolvimento do projeto, enfrentamos diversos desafios técnicos que contribuíram para nosso aprendizado:
+🎨 CSS3Estilização avançada com CSS puroGit/GitHubControle de versão e hospedagem do código
+
+🧩 npmGerenciador de pacotes
+
+📜 JavaScript ES6+Linguagem de programação principal
+
+GitHub PagesHospedagem do site estático
+
+---
+## 🚧 Desafios Enfrentados
+
+Durante o desenvolvimento do projeto, enfrentamos diversos desafios técnicos que contribuíram para nosso aprendizado: inclusive com o angular  por isso nao foi usado.
 
 Compatibilidade de Versões:
 
@@ -68,3 +80,5 @@ O projeto foi desenvolvido com foco em uma experiência de usuário fluida tanto
  Adicionar testes automatizados
 
 👥 
+Agradeço sinceramente a oportunidade de compartilhar este projeto, que, embora simples, representa um marco significativo no meu aprendizado em desenvolvimento web. Reconheço que ainda tenho um longo caminho a percorrer e muito a aprender, mas estou comprometido em continuar me dedicando e aprimorando minhas habilidades. Este projeto foi desenvolvido com a base de referncia da Aula do Pro.felipe na Dio. ( Criando um Blog com Angular ) Decola Tech 2025
+
