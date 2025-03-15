@@ -67,7 +67,7 @@ Resolução de problemas com rotas e caminhos base
 
 
 📱 Layout e Responsividade
-O projeto foi desenvolvido com foco em uma experiência de usuário fluida tanto em desktops quanto em dispositivos móveis:
+O projeto foi desenvolvido com foco em uma experiência de usuário fluida tanto em desktops quanto em dispositivos móveis (projeto ainda nao concluido )
 
 ---
  Implementar sistema de busca/filtros
