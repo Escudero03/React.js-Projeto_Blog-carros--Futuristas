@@ -1,6 +1,10 @@
-## 📋 Descrição do Projeto
+## <p align="center"> - 📋 Projeto  Blog Carros-Futurista !!!</p>
 
-(https://react-js-projeto-blog-carros-futuristas-8tpfcpabp.vercel.app)
+ <p align="center">
+  <img src="foto-capa-blog.png" alt="foto-capa-blog ?" width="500" style="display: block; margin: 0 auto;">
+</p>
+
+**✔Clique e Conheça ** - Carros Futurista. Acesse agora: <a href="https://react-js-projeto-blog-carros-futuristas-8tpfcpabp.vercel.app" style="font-size:120%;" target="_blank">Blog !!</a>
 
 O Blog de Carros Futuristas é uma plataforma moderna dedicada à exibição e discussão dos veículos mais inovadores do mundo automotivo. Apresentando designs revolucionários, tecnologias de ponta e conceitos que definem o futuro da mobilidade, este blog serve como um showcase interativo para entusiastas e profissionais do setor.
 Visualize os carros mais extraordinários do futuro em um layout intuitivo e responsivo!
